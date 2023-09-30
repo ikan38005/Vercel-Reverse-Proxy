@@ -2,7 +2,7 @@
   "version": 2,
   "routes": [
   	{
-      "src": "/(.*)","destination": "https://dev-zedo.pantheonsite.io/$1",
+      "source": "/(.*)","destination": "https://dev-zedo.pantheonsite.io/$1",
       "headers": [
         {
           "key": "X-Robots-Tag",
