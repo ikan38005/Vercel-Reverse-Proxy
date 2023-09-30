@@ -1,15 +1,8 @@
 {
-  "version": 2,
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "https://dev-zedo.pantheonsite.io/$1",
-       "headers": [
-        {
-          "key": "X-Robots-Tag",
-          "value": "index"
-        }
-      ],
+      "destination": "https://dev-zedo.pantheonsite.io/$1"
     }
   ]
 }
